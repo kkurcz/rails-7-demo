@@ -1,0 +1,2 @@
+var e={};e=function(e,t){const l=e?new Date(e):new Date;const r=t||"YYYY-MM-DDThh:mm:ss";const n=l.getFullYear();const o=zeroFill(l.getMonth()+1,2);const c=zeroFill(l.getDate(),2);const s=zeroFill(l.getHours(),2);const a=zeroFill(l.getMinutes(),2);const i=zeroFill(l.getSeconds(),2);return r.replace("YYYY",n).replace("MM",o).replace("DD",c).replace("hh",s).replace("mm",a).replace("ss",i)};function zeroFill(e,t){e=e.toString();while(e.length<t)e="0"+e;return e}var t=e;export default t;
+
